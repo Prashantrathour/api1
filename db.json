@@ -65889,7 +65889,10 @@
   "customer_status": [],
   "addresses": [],
   "countries": [],
-  "quiz": [],
+  "quiz": [{
+    "1":"what is your name"
+    
+}],
   "quizStatus": [],
   "questions": [],
   "questionStatus": [],
