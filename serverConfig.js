@@ -1,6 +1,6 @@
 export default {
   protectedRoutes: [
-    { route: "/users", methods: ["POST", "PUT", "DELETE", "PATCH"] },
+    
     { route: "/posts", methods: ["POST", "PUT", "DELETE", "PATCH"] },
     { route: "/comments", methods: ["POST", "PUT", "DELETE", "PATCH"] },
     { route: "/photos", methods: ["POST", "PUT", "DELETE", "PATCH"] },
@@ -11,6 +11,7 @@ export default {
     { route: "/areas", methods: ["POST", "PUT", "DELETE", "PATCH"] },
     { route: "/recipeTags", methods: ["POST", "PUT", "DELETE", "PATCH"] },
     { route: "/orders", methods: ["GET", "POST", "PUT", "DELETE", "PATCH"] },
+    { route: "/login", methods: ["GET", "POST", "PUT", "DELETE", "PATCH"] },
   ]
 }
 
